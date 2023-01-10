@@ -1,0 +1,77 @@
+Python => bỏ Python
+
+
+
+# Basic
+-> Cài đặt:
+Nhiều máy tính mặc định có cài sẵn Python. Check: python --version
+Chạy file: python helloworld.py
+
+Chạy lệnh python bằng commandline: Gõ python hoặc py -> gõ lệnh như bth -> exit() để thoát
+
+Editor cứ dùng VSC chơi được cả file notebook cũng như python thuần
+
+-> Phải tuân thủ indention, nếu k báo lỗi
+
+-> pip là trình quản lý package của python
+
+
+
+# Về mảng DMaML
+-> Jupiter notebook là 1 trình chạy file notebook trong python. Có thể dùng trực tiếp trên VSC khi cài.
+File notebook trong python cũng chỉ là code python trên đó r cho nó chạy từng cục thôi mà. 
+
+File notebook rất thường dùng trong python. Kết quả sẽ hiển thị từng phần, có thể dung các file png html latex hay dùng markdown khiến comment trở nên trực quan.
+
+-> Kaggle: công ty con của google, là kho tài liệu về khoa học dữ liệu liên quan đến học máy. Có code cũng như dataset để training model sẵn trên đó
+
+-> Google Colab cũng chỉ là một dạng Jupyter Notebook tùy biến cho phép thực thi Python trên nền tảng đám mây, được cung cấp bởi Google
+Đăng file ipynb lên gg drive xong có thể tự động chạy bằng google colab
+
+Upload file lên google colab ở cùng cấp với file notebook hiện tại bằng:
+from google.colab import files
+uploaded = files.upload()
+=> Trong local ta có nó cùng cấp thư mục là dược, k cần import gì hết nx
+
+-> Streamlit là công cụ được xây dựng với mục đích dành cho Machine Learning Engineer, tạo ra giao diện web như Jupyter notebook. Điểm đặc biệt khác với Jupyter notebook là Streamlit không phải hiển thị code, giúp tạo ra sản phẩm có tính hoàn thiện cao. VD ta dùng nó code giao diện cho web bằng python
+
+
+
+# Phân tích dự án spam email filtering
+Stemming là biến đổi từ về dạng gốc. VD: walked, walking, walks là biến thể cần quy về dạng gốc là walk
+Lemmatizing là biến đổi từ bất quy tắc cũng về dạng gốc, tức là ta có thể đảm bảo các từ goes, went và go về cùng 1 kết quả sau khi dược xử lý qua lemmatizer44
+
+Để chạy: đáp fie BNB.ipynb lên google colab và import file vào or chạy local phải tải các package tương tự trong readme
+
+
+
+# Dùng scrappy
+pip install Scrapy -> scrapy genspider macbook_tgdd www.thegioididong.com/laptop-apple-macbook -> scrapy crawl macbook_tgdd -o macbook_tgdd.json
+
+=> F12 copy được cả selector
+
+
+
+# Các thư viện
+Bộ thư viện mạnh mẽ giúp có thể code bằng python thuần mà tạo ra được tất cả mọi thứ
+
+pandas: đọc file csv
+numpy: thư viện có sẵn các hàm toán học
+nltk: thư viện chứa nhiều công cụ gipus lemmatize or stemming word
+re: thư viện giúp filter text, VD lọc bỏ số chỉ giữ lại chữ chẳng hạn
+mathplotlib: hiển thị trực quan dạng biểu đồ cho số liệu
+sklearn.metrics: visualize dạng bảng precision recall cho DMaML
+string: thao tác với string
+streamlit: thư viện tạo giao diện web và giúp chạy local trên port để test luôn
+turtle: thư viện tạo giao diện ứng dụng
+random: sinh số ngẫu nhiên
+time: thư viện thao tác với thời gian
+math: các hàm toán cơ bản như làm tròn các thứ
+
+
+
+# Other
+-> Chỉ học cú pháp Python cơ bản, k đi sâu.
+Full Tut: https://www.w3schools.com/python/ => base search. Cần gì khác thì search.
+Ngoài ra còn có thư viện Django, Pandas, Numpy, Matplotlib xem trên freetuts.
+

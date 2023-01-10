@@ -1,0 +1,9 @@
+-> Python là top ngôn ngữ lập trình phổ biến nhất thế giới. 
+Có thể dùng ở server để tạo web app, ứng dụng app bth, toán, system scripting.
+
+Python có thể xử lý big data, tính toán các PT toán học phức tạp.
+Chạy trên interpreter system. Có thể dùng theo kiểu procedural, OOP, functional way đều được.
+
+Bản mới nhất là Python3.
+Điều đặc biệt là Python là 1 ngôn ngữ dùng new line để kết thúc 1 câu lệnh chứ kp dấu chấm phẩy như các ngôn ngữ khác, cũng như vc phụ thuộc vào khoảng trắng define scope.
+
